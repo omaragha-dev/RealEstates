@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    z-index: 1;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+nav a:hover{
+    background-color:  rgb(201, 200, 200);
+    transition: 0.5s;
+}
+.div-nav-one{
+    width: 30%;
+    float: left;
+    letter-spacing: 5px;
+    padding: 5px;
+}
+.div-nav-two{
+    width: 70%;
+    float: left;
+    text-align: right;
+    padding: 5px;
+}
+.div-logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 5px;
+}
+.div-image h1{
+    display: inline;
+    color:  rgb(0, 0, 0);
+}
+.logo h1{
+    color: white;
+    text-align: center;
+    font-size:  30px;
+    padding: 5px;
+    width: 45%;
+}
+.background h1{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+}
+.div-project{
+    padding: 20px;
+}
+.div-project h1{
+    padding: 20px;
+}
+#About h1{
+    padding: 20px;
+
+}
+hr{
+    opacity:0.10;
+}
+aside{
+    margin-top: 40px;
+    padding: 40px;
+    clear: both;
+}
+.projects{
+    padding: 0px 30px 0px 30px;
+    width: 100%;    
+}
+.projects img{
+    width: 100%;
+    padding: 10px;
+}
+.projects-1{
+    width: 25%;
+    float: left;
+}
+.projects-2{
+    width: 25%;
+    float: left;
+}
+.projects-3{
+    width: 25%;
+    float: left;
+}
+.projects-4{
+    width: 25%;
+    float: left;
+}
+.projects h1{
+    width: 143px;
+    font-size:15px ;
+    padding: 8px 16px;
+    position:relative;
+    top: 47px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+}
+.projects::after{
+    clear: both;
+}
+section{
+    padding: 40px;
+    margin-top: 40px;
+    clear: both;
+}
+.about-1{
+    padding: 5px;
+}
+.about-1 p{
+    letter-spacing:  1.2px;
+    padding: 10px;
+}
+.team{
+    padding: 30px;
+}
+.team img{
+    padding: 10px;
+}
+.team h3,h4,p{
+    padding: 10px;
+}
+.team-1{
+    width: 25%;
+    float: left;
+    padding: 5px;
+}
+.team-2{
+    width: 25%;
+    float: left;
+    padding: 5px;
+}
+.team-3{
+    width: 25%;
+    float: left;
+    padding: 5px;
+}
+.team-4{
+    width: 25%;
+    float: left;
+    padding: 5px;
+}
+.team button{
+    width: 100%;
+    border: 0px;
+    padding:5px ;
+    font-size: 20px;
+}
+.team h3,h4{
+    letter-spacing: 2px;
+}
+.team h4{
+    color: rgb(146, 146, 146);
+}
+article{
+    padding: 40px;
+    margin-top: 40px;
+    clear: both;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+form button{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}       
+footer{
+    background-color: rgb(0, 0, 0);
+    clear: both;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    height: 80px;
+}
+.footer-one{
+    width: 70%;
+    float: left;
+    text-align: left;
+    padding: 10px;
+}
+.footer-two{
+    width: 30%;
+    float: left;
+    text-align: right;
+    padding: 10px;
+}
+footer i{
+    padding: 5px;
+    font-size: 25px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
